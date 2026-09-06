@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment. .env.example is committed; .env is not - it carries the real
+# Supabase URL and anon key for this machine.
+.env
+.env.local
+.env.*.local
